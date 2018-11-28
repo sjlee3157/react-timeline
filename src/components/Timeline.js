@@ -1,7 +1,7 @@
 import React from 'react';
 import './Timeline.css';
 import TimelineEvent from './TimelineEvent';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Timeline = (props) => {
   const eventComponents = props.events.map((event) => {
@@ -20,8 +20,8 @@ const Timeline = (props) => {
   )
 }
 
-// Timeline.propTypes = {
-//   events: PropTypes.array,
-// };
+Timeline.propTypes = {
+  events: PropTypes.array,
+};
 
 export default Timeline;

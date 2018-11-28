@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Timestamp = (props) => {
   const time = moment(props.time);
@@ -12,8 +12,8 @@ const Timestamp = (props) => {
   );
 };
 
-// Timestamp.propTypes = {
-//   time: PropTypes.string,
-// };
+Timestamp.propTypes = {
+  time: PropTypes.string,
+};
 
 export default Timestamp;
