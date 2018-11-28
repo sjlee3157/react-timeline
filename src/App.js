@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TimelineEvent from './components/TimelineEvent';
+// import TimelineEvent from './components/TimelineEvent';
 import Timeline from './components/Timeline';
 
 import timelineData from './data/timeline.json';
